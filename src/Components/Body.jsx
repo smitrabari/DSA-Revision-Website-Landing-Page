@@ -165,37 +165,53 @@ const Body = () => {
       </div>
       <div className="flex flex-row justify-between items-center px-25 border-2 border-gray-300 rounded-3xl py-6 mx-20 shadow-2xl">
         <div className="flex items-center gap-3">
-          <div className="bg-blue-400 rounded-full p-1">
-            <TiDocumentText className="text-5xl" />
+          <div className="bg-gray-200 rounded-full p-1">
+            <TiDocumentText className="text-5xl text-blue-700" />
           </div>
           <p className="leading-tight font-jakarta font-bold">
-            <span className="text-2xl text-blue-900">450+</span> <br /> Problems
+            <span className="text-2xl text-blue-700">450+</span> <br /> Problems
           </p>
         </div>
+        <div className="h-12 w-px bg-gray-300"></div>
         <div className="flex items-center gap-3">
-          <div className="bg-blue-400 rounded-full p-1">
-            <IoMdBook className="text-5xl" />
+          <div className="bg-gray-200 rounded-full p-1">
+            <IoMdBook className="text-5xl text-blue-700" />
           </div>
           <p className="leading-tight font-jakarta font-bold">
-            <span className="text-2xl text-blue-900">120+</span> <br /> Revision Notes
+            <span className="text-2xl text-blue-700">120+</span> <br /> Revision Notes
           </p>
         </div>
+        <div className="h-12 w-px bg-gray-300"></div>
         <div className="flex items-center gap-3">
-          <div className="bg-blue-400 rounded-full p-1">
-            <RiTargetFill className="text-5xl" />
+          <div className="bg-gray-200 rounded-full p-1">
+            <RiTargetFill className="text-5xl text-blue-700" />
           </div>
           <p className="leading-tight font-jakarta font-bold">
-            <span className="text-2xl text-blue-900">8</span> <br /> Core Topics
+            <span className="text-2xl text-blue-700">8</span> <br /> Core Topics
           </p>
         </div>
+        <div className="h-12 w-px bg-gray-300"></div>
         <div className="flex items-center gap-3">
-          <div className="bg-blue-400 rounded-full p-1">
-            <HiMiniUserGroup className="text-5xl" />
+          <div className="bg-gray-200 rounded-full p-1">
+            <HiMiniUserGroup className="text-5xl text-blue-700" />
           </div>
           <p className="leading-tight font-jakarta font-bold">
-            <span className="text-2xl text-blue-900">10K+</span> <br /> Happy Learners
+            <span className="text-2xl text-blue-700">10K+</span> <br /> Happy Learners
           </p>
         </div>
+      </div>
+      <div className="mt-8">
+        <div className="flex justify-center">
+          <p className="text-4xl font-jakarta font-bold">
+          Explore DSA Topics
+          </p>
+        </div>
+        <div className="flex justify-center">
+          <p className="text-2xl font-jakarta font-bold text-gray-700">
+          Choose a topic and start your revision journey.
+        </p>
+        </div>
+        
       </div>
     </div>
   );
