@@ -68,7 +68,7 @@ const Body = () => {
             </ul>
           </div>
         </div>
-        <div className="order-2">
+        <div className="order-2 shadow-xl/30">
           <div className="relative flex items-center justify-center py-20">
             {/* Decorative background blobs */}
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-purple-100 rounded-full blur-2xl opacity-70"></div>
