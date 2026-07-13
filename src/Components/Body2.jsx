@@ -58,7 +58,7 @@ const Body2 = () => {
                   </p>
                 </div>
             </div>
-            <div className="bg-indigo-300 p-4 mx-20 rounded-3xl flex justify-between items-center mb-12 mt-10">
+            <div className="bg-indigo-300 p-4 mx-20 rounded-3xl flex justify-between items-center mb-12 mt-10 shadow-2xl">
                 <div className="py-2 ml-50">
                     <IoRocketOutline className="text-9xl"/>
                 </div>
