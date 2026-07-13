@@ -5,6 +5,10 @@ import { TiDocumentText } from "react-icons/ti";
 import { IoMdBook } from "react-icons/io";
 import { RiTargetFill } from "react-icons/ri";
 import { HiMiniUserGroup } from "react-icons/hi2";
+import { MdDataArray } from "react-icons/md";
+import { FaLink } from "react-icons/fa6";
+import { GoStack } from "react-icons/go";
+import { GoTrophy } from "react-icons/go";
 import { Code } from "lucide-react";
 import React from "react";
 
@@ -178,7 +182,8 @@ const Body = () => {
             <IoMdBook className="text-5xl text-blue-700" />
           </div>
           <p className="leading-tight font-jakarta font-bold">
-            <span className="text-2xl text-blue-700">120+</span> <br /> Revision Notes
+            <span className="text-2xl text-blue-700">120+</span> <br /> Revision
+            Notes
           </p>
         </div>
         <div className="h-12 w-px bg-gray-300"></div>
@@ -196,22 +201,20 @@ const Body = () => {
             <HiMiniUserGroup className="text-5xl text-blue-700" />
           </div>
           <p className="leading-tight font-jakarta font-bold">
-            <span className="text-2xl text-blue-700">10K+</span> <br /> Happy Learners
+            <span className="text-2xl text-blue-700">10K+</span> <br /> Happy
+            Learners
           </p>
         </div>
       </div>
       <div className="mt-8">
         <div className="flex justify-center">
-          <p className="text-4xl font-jakarta font-bold">
-          Explore DSA Topics
-          </p>
+          <p className="text-4xl font-jakarta font-bold">Explore DSA Topics</p>
         </div>
         <div className="flex justify-center">
           <p className="text-2xl font-jakarta font-bold text-gray-700">
-          Choose a topic and start your revision journey.
-        </p>
+            Choose a topic and start your revision journey.
+          </p>
         </div>
-        
       </div>
     </div>
   );
