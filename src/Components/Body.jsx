@@ -220,7 +220,7 @@ const Body = () => {
           </p>
         </div>
       </div>
-      <div class="flex justify-around p-20">
+      <div class="flex justify-around px-20 py-5">
       <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
             <MdDataArray  className="text-6xl bg-emerald-200 text-emerald-600 rounded-sm p-2" />
@@ -310,7 +310,7 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div class="flex justify-around p-20">
+      <div class="flex justify-around px-20">
       <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
             <LuTreePine  className="text-6xl bg-green-200 text-green-600 rounded-sm p-2" />
