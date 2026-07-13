@@ -68,14 +68,14 @@ const Body = () => {
             </ul>
           </div>
         </div>
-        <div className="order-2 shadow-xl/30">
-          <div className="relative flex items-center justify-center py-20">
+        <div className="order-2">
+          <div className="relative flex items-center justify-center py-20 ">
             {/* Decorative background blobs */}
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-purple-100 rounded-full blur-2xl opacity-70"></div>
             <div className="absolute bottom-0 right-0 w-32 h-32 bg-purple-100 rounded-full blur-2xl opacity-70"></div>
 
             {/* Main card */}
-            <div className="relative flex bg-[#0d1117] rounded-2xl shadow-2xl overflow-hidden w-850px">
+            <div className="relative flex bg-[#0d1117] rounded-2xl shadow-2xl overflow-hidden w-850px ">
               {/* Sidebar */}
               <div className="bg-[#161b22] w-48 p-6 flex flex-col gap-5">
                 {topics.map((topic) => (
@@ -89,7 +89,7 @@ const Body = () => {
               </div>
 
               {/* Code panel */}
-              <div className="flex-1 flex flex-col">
+              <div className="flex-1 flex flex-col shadow-xl/30">
                 {/* Top bar with traffic lights */}
                 <div className="flex items-center justify-between px-4 py-3 border-b border-gray-800">
                   <div className="flex gap-2">
@@ -150,20 +150,24 @@ const Body = () => {
                     {"\n"}
                     {"    "}
                     <span className="text-gray-300">mp[nums[i]] = i;</span>
-                    {"\n"}
+                    <span className="text-gray-300">
+                      {"\n"}
                     {"  "}
                     {"}"}
                     {"\n"}
                     {"}"}
                     {"\n"}
                     {"  "}
+                    </span>
                     <span className="text-purple-400">return</span>{" "}
                     <span className="text-gray-300">
                       {"{"}
                       {"}"};
                     </span>
-                    {"\n"}
-                    {"}"}
+                    <span className="text-gray-300">
+                      {"\n"}
+                      {"}"}
+                    </span>
                   </code>
                 </pre>
               </div>
@@ -223,7 +227,7 @@ const Body = () => {
       <div class="flex justify-around px-20 py-5">
       <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
-            <MdDataArray  className="text-6xl bg-emerald-200 text-emerald-600 rounded-sm p-2" />
+            <MdDataArray  className="text-6xl bg-emerald-200 text-emerald-600 rounded-lg p-2" />
           </div>
           <div>
             <div>
@@ -245,7 +249,7 @@ const Body = () => {
         </div>
         <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
-            <FaLink  className="text-6xl bg-blue-200 text-blue-600 rounded-sm p-2" />
+            <FaLink  className="text-6xl bg-blue-200 text-blue-600 rounded-lg p-2" />
           </div>
           <div>
             <div>
@@ -267,7 +271,7 @@ const Body = () => {
         </div>
         <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
-            <GoStack  className="text-6xl bg-violet-200 text-voilet-600 rounded-sm p-2" />
+            <GoStack  className="text-6xl bg-violet-200 text-voilet-600 rounded-lg p-2" />
           </div>
           <div>
             <div>
@@ -289,7 +293,7 @@ const Body = () => {
         </div>
         <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
-            <GoTrophy  className="text-6xl bg-orange-200 text-orange-600 rounded-sm p-2" />
+            <GoTrophy  className="text-6xl bg-orange-200 text-orange-600 rounded-lg p-2" />
           </div>
           <div>
             <div>
@@ -313,7 +317,7 @@ const Body = () => {
       <div class="flex justify-around px-20">
       <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
-            <LuTreePine  className="text-6xl bg-green-200 text-green-600 rounded-sm p-2" />
+            <LuTreePine  className="text-6xl bg-green-200 text-green-600 rounded-lg p-2" />
           </div>
           <div>
             <div>
@@ -335,7 +339,7 @@ const Body = () => {
         </div>
         <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
-            <BsGraphUp  className="text-6xl bg-rose-200 text-rose-600 rounded-sm p-2" />
+            <BsGraphUp  className="text-6xl bg-rose-200 text-rose-600 rounded-lg p-2" />
           </div>
           <div>
             <div>
@@ -357,7 +361,7 @@ const Body = () => {
         </div>
         <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
-            <VscSettings  className="text-6xl bg-amber-200 text-amber-600 rounded-sm p-2" />
+            <VscSettings  className="text-6xl bg-amber-200 text-amber-600 rounded-lg p-2" />
           </div>
           <div>
             <div>
@@ -379,7 +383,7 @@ const Body = () => {
         </div>
         <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
         <div>
-            <TbMathFunction  className="text-6xl bg-cyan-200 text-cyan-600 rounded-sm p-2" />
+            <TbMathFunction  className="text-6xl bg-cyan-200 text-cyan-600 rounded-lg p-2" />
           </div>
           <div>
             <div>
