@@ -9,6 +9,10 @@ import { MdDataArray } from "react-icons/md";
 import { FaLink } from "react-icons/fa6";
 import { GoStack } from "react-icons/go";
 import { GoTrophy } from "react-icons/go";
+import { LuTreePine } from "react-icons/lu";
+import { BsGraphUp } from "react-icons/bs";
+import { VscSettings } from "react-icons/vsc";
+import { TbMathFunction } from "react-icons/tb";
 import { Code } from "lucide-react";
 import React from "react";
 
@@ -214,6 +218,186 @@ const Body = () => {
           <p className="text-2xl font-jakarta font-bold text-gray-700">
             Choose a topic and start your revision journey.
           </p>
+        </div>
+      </div>
+      <div class="flex justify-around p-20">
+      <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
+        <div>
+            <MdDataArray  className="text-6xl bg-emerald-200 text-emerald-600 rounded-sm p-2" />
+          </div>
+          <div>
+            <div>
+              <p className="leading-tight font-jakarta font-bold text-3xl">Arrays</p>
+            </div>
+            <div>
+              <span className="leading-tight font-jakart text-md">
+                Learn arrays and
+                <br />
+                problem solving
+                <br />
+                techniques.
+              </span>
+            </div>
+          </div>
+          <div className="mt-20 mx-2 justify-end">
+              <FaArrowRightLong className="text-2xl"/>
+          </div>
+        </div>
+        <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
+        <div>
+            <FaLink  className="text-6xl bg-blue-200 text-blue-600 rounded-sm p-2" />
+          </div>
+          <div>
+            <div>
+              <p className="leading-tight font-jakarta font-bold text-3xl">Linked List</p>
+            </div>
+            <div>
+              <span className="leading-tight font-jakart text-md">
+                Singly, doubly,
+                <br />
+                circular linked lists
+                <br />
+                and problems.
+              </span>
+            </div>
+          </div>
+          <div className="mt-20 mx-2 justify-end">
+              <FaArrowRightLong className="text-2xl"/>
+          </div>
+        </div>
+        <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
+        <div>
+            <GoStack  className="text-6xl bg-violet-200 text-voilet-600 rounded-sm p-2" />
+          </div>
+          <div>
+            <div>
+              <p className="leading-tight font-jakarta font-bold text-3xl">Stack</p>
+            </div>
+            <div>
+              <span className="leading-tight font-jakart text-md">
+                Understand stack
+                <br />
+                concepts and solve
+                <br />
+                classic problems.
+              </span>
+            </div>
+          </div>
+          <div className="mt-20 mx-2 justify-end">
+              <FaArrowRightLong className="text-2xl"/>
+          </div>
+        </div>
+        <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
+        <div>
+            <GoTrophy  className="text-6xl bg-orange-200 text-orange-600 rounded-sm p-2" />
+          </div>
+          <div>
+            <div>
+              <p className="leading-tight font-jakarta font-bold text-3xl">Queue</p>
+            </div>
+            <div>
+              <span className="leading-tight font-jakart text-md">
+                Explore queues,
+                <br />
+                deque and priority
+                <br />
+                queue concepts.
+              </span>
+            </div>
+          </div>
+          <div className="mt-20 mx-2 justify-end">
+              <FaArrowRightLong className="text-2xl"/>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-around p-20">
+      <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
+        <div>
+            <LuTreePine  className="text-6xl bg-green-200 text-green-600 rounded-sm p-2" />
+          </div>
+          <div>
+            <div>
+              <p className="leading-tight font-jakarta font-bold text-3xl">Trees</p>
+            </div>
+            <div>
+              <span className="leading-tight font-jakart text-md">
+                Binary trees, BST,
+                <br />
+                traversals and
+                <br />
+                applications.
+              </span>
+            </div>
+          </div>
+          <div className="mt-20 mx-2 justify-end">
+              <FaArrowRightLong className="text-2xl"/>
+          </div>
+        </div>
+        <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
+        <div>
+            <BsGraphUp  className="text-6xl bg-rose-200 text-rose-600 rounded-sm p-2" />
+          </div>
+          <div>
+            <div>
+              <p className="leading-tight font-jakarta font-bold text-3xl">Graphs</p>
+            </div>
+            <div>
+              <span className="leading-tight font-jakart text-md">
+                BFS, DFS, shortest
+                <br />
+                path and more
+                <br />
+                graph algorithms.
+              </span>
+            </div>
+          </div>
+          <div className="mt-20 mx-2 justify-end">
+              <FaArrowRightLong className="text-2xl"/>
+          </div>
+        </div>
+        <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
+        <div>
+            <VscSettings  className="text-6xl bg-amber-200 text-amber-600 rounded-sm p-2" />
+          </div>
+          <div>
+            <div>
+              <p className="leading-tight font-jakarta font-bold text-3xl">Sorting</p>
+            </div>
+            <div>
+              <span className="leading-tight font-jakart text-md">
+                Sorting algorithms
+                <br />
+                cand their real-world
+                <br />
+                use cases.
+              </span>
+            </div>
+          </div>
+          <div className="mt-20 mx-2 justify-end">
+              <FaArrowRightLong className="text-2xl"/>
+          </div>
+        </div>
+        <div className="flex border-2 border-gray-400 p-10 shadow-2xs rounded-2xl gap-2">
+        <div>
+            <TbMathFunction  className="text-6xl bg-cyan-200 text-cyan-600 rounded-sm p-2" />
+          </div>
+          <div>
+            <div>
+              <p className="leading-tight font-jakarta font-bold text-3xl">Dynamic</p>
+            </div>
+            <div>
+              <span className="leading-tight font-jakart text-md">
+                Solve complex
+                <br />
+                problems with DP
+                <br />
+                patterns.
+              </span>
+            </div>
+          </div>
+          <div className="mt-20 mx-2 justify-end">
+              <FaArrowRightLong className="text-2xl"/>
+          </div>
         </div>
       </div>
     </div>
