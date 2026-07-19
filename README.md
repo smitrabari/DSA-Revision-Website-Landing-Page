@@ -38,29 +38,7 @@
 - Fully responsive layout (mobile, tablet, desktop) using Tailwind CSS utility classes
 - Icon-driven UI using `react-icons` and `lucide-react`
 
-## Topics Covered
 
-<div align="center">
-
-| Arrays | Linked List | Stack | Queue |
-|:---:|:---:|:---:|:---:|
-| Trees | Graphs | Sorting | Dynamic Programming |
-
-</div>
-
-## Tech Stack
-
-<div align="center">
-
-| Layer | Technology |
-|:---:|:---:|
-| **Framework** | React 19 |
-| **Build Tool** | Vite |
-| **Styling** | Tailwind CSS 4 |
-| **Icons** | react-icons, lucide-react |
-| **Linting** | ESLint |
-
-</div>
 
 ## Component Flow
 
